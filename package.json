@@ -4,8 +4,13 @@
   "description": "Prettier configuration used in Swimlane projects.",
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
+  "files": [
+    "lib",
+    "bin"
+  ],
   "scripts": {
     "test": "jasmine JASMINE_CONFIG_PATH=test/support/jasmine.json",
     "lint": "eslint .",
