@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jasmine JASMINE_CONFIG_PATH=test/support/jasmine.json",
     "lint": "eslint .",
     "prettier": "prettier --write \"**/*.js\""
   },
