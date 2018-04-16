@@ -12,7 +12,7 @@ npm install --save-dev prettier @swimlane/prettier-config-swimlane
 ```javascript
 'use strict';
 
-module.exports = require('prettier-config-swimlane');
+module.exports = require('@swimlane/prettier-config-swimlane');
 ```
 
 2. Add a `prettier` script to package.json:
