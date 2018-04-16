@@ -13,7 +13,8 @@
   "scripts": {
     "test": "jasmine JASMINE_CONFIG_PATH=test/support/jasmine.json",
     "lint": "eslint .",
-    "prettier": "prettier --write \"**/*.js\""
+    "prettier": "prettier --write \"**/*.js\"",
+    "preversion": "npm run lint && npm test"
   },
   "repository": {
     "type": "git",
