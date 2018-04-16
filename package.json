@@ -8,8 +8,7 @@
     "test": "test"
   },
   "files": [
-    "lib",
-    "bin"
+    "lib"
   ],
   "scripts": {
     "test": "jasmine JASMINE_CONFIG_PATH=test/support/jasmine.json",
