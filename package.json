@@ -1,0 +1,30 @@
+{
+  "name": "prettier-config-swimlane",
+  "version": "0.0.0",
+  "description": "Prettier configuration used in Swimlane projects.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swimlane/prettier-config-swimlane.git"
+  },
+  "keywords": [
+    "swimlane",
+    "prettier",
+    "config",
+    "configuration",
+    "style",
+    "guide"
+  ],
+  "author": "Swimlane <contact@swimlane.com> (https://github.com/swimlane)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swimlane/prettier-config-swimlane/issues"
+  },
+  "homepage": "https://github.com/swimlane/prettier-config-swimlane#readme"
+}
