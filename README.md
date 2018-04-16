@@ -4,7 +4,7 @@
 ## Installation
 1. Install (with [Prettier](https://www.npmjs.com/package/prettier)) via [npm](https://www.npmjs.com/):
 ```bash
-npm install --save-dev prettier prettier-config-swimlane
+npm install --save-dev prettier @swimlane/prettier-config-swimlane
 ```
 
 ## Usage
