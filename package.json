@@ -15,7 +15,8 @@
     "test": "jasmine JASMINE_CONFIG_PATH=test/support/jasmine.json",
     "lint": "eslint .",
     "prettier": "prettier --write \"**/*.js\"",
-    "preversion": "npm run lint && npm test"
+    "preversion": "npm run lint && npm test",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
