@@ -40,9 +40,9 @@
     "eslint-config-swimlane": "^1.1.0",
     "jasmine": "^3.1.0",
     "jsonschema": "^1.2.4",
-    "prettier": "^1.12.0"
+    "prettier": "^1.15.3"
   },
   "peerDependencies": {
-    "prettier": "^1.12.0"
+    "prettier": "~1.15.3"
   }
 }
