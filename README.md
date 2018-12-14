@@ -2,9 +2,9 @@
 [Prettier](https://prettier.io/) configuration used in Swimlane projects.
 
 ## Installation
-1. Install (with [Prettier](https://www.npmjs.com/package/prettier)) via [npm](https://www.npmjs.com/):
+Install as a dev dependency (along with [`prettier`](https://www.npmjs.com/package/prettier)`@1.15`) via [npm](https://www.npmjs.com/):
 ```bash
-npm install --save-dev prettier @swimlane/prettier-config-swimlane
+npm install --save-dev prettier@1.15 @swimlane/prettier-config-swimlane
 ```
 
 ## Usage
