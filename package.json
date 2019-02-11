@@ -1,6 +1,6 @@
 {
   "name": "@swimlane/prettier-config-swimlane",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Prettier configuration used in Swimlane projects.",
   "main": "index.js",
   "directories": {
@@ -41,9 +41,9 @@
     "eslint-config-swimlane": "^1.1.0",
     "jasmine": "^3.1.0",
     "jsonschema": "^1.2.4",
-    "prettier": "^1.15.3"
+    "prettier": "^1.16.4"
   },
   "peerDependencies": {
-    "prettier": "~1.15.3"
+    "prettier": "~1.16.4"
   }
 }

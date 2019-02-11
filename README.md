@@ -1,14 +1,19 @@
 # prettier-config-swimlane
+
 [Prettier](https://prettier.io/) configuration used in Swimlane projects.
 
 ## Installation
-Install as a dev dependency (along with [`prettier`](https://www.npmjs.com/package/prettier)`@1.15`) via [npm](https://www.npmjs.com/):
+
+Install as a dev dependency (along with [`prettier`](https://www.npmjs.com/package/prettier)`@1.16`) via [npm](https://www.npmjs.com/):
+
 ```bash
-npm install --save-dev prettier@1.15 @swimlane/prettier-config-swimlane
+npm install --save-dev @swimlane/prettier-config-swimlane prettier@1.16
 ```
 
 ## Usage
+
 1. Create a file named `prettier.config.js` with the following contents:
+
 ```javascript
 'use strict';
 
@@ -16,6 +21,7 @@ module.exports = require('@swimlane/prettier-config-swimlane');
 ```
 
 2. Add a `prettier` script to package.json:
+
 ```json
 {
   "scripts": {
@@ -23,6 +29,7 @@ module.exports = require('@swimlane/prettier-config-swimlane');
   }
 }
 ```
+
 > Adjust the glob pattern as needed to include more file extensions.
 > For example, `\"**/*.{js,ts}\"` will format both JavaScript and TypeScript files.
 > Files can be excluded with a [`.prettierignore` file](https://prettier.io/docs/en/ignore.html#ignoring-files).
@@ -30,9 +37,11 @@ module.exports = require('@swimlane/prettier-config-swimlane');
 Executing `npm run prettier` will now format a project's files.
 
 ## License
+
 [MIT](LICENSE)
 
 ## Credits
+
 `prettier-config-swimlane` is a [Swimlane](http://swimlane.com) open-source project; we
 believe in giving back to the open-source community by sharing some of the
 projects we build.
