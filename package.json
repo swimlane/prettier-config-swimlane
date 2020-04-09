@@ -37,11 +37,11 @@
   },
   "homepage": "https://github.com/swimlane/prettier-config-swimlane#readme",
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^6.8.0",
     "eslint-config-swimlane": "^1.1.0",
     "jasmine": "^3.1.0",
     "jsonschema": "^1.2.4",
-    "prettier": "^1.16.4"
+    "prettier": "^2.0.4"
   },
   "peerDependencies": {
     "prettier": "~1.16.4"
