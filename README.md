@@ -4,10 +4,10 @@
 
 ## Installation
 
-Install as a dev dependency (along with [`prettier`](https://www.npmjs.com/package/prettier)`@1.16`) via [npm](https://www.npmjs.com/):
+Install as a dev dependency (along with [`prettier`](https://www.npmjs.com/package/prettier)) via [npm](https://www.npmjs.com/):
 
 ```bash
-npm install --save-dev @swimlane/prettier-config-swimlane prettier@1.16
+npm install --save-dev @swimlane/prettier-config-swimlane prettier@latest
 ```
 
 ## Usage
