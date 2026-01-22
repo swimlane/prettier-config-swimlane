@@ -1,6 +1,6 @@
 {
   "name": "@swimlane/prettier-config-swimlane",
-  "version": "3.0.2",
+  "version": "4.0.0-alpha.0",
   "description": "Prettier configuration used in Swimlane projects.",
   "main": "index.js",
   "directories": {
